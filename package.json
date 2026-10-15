@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-webhook-mercado-pago",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Valida a assinatura x-signature das notificações do Mercado Pago com HMAC-SHA256, comparação em tempo constante e janela anti-replay. Só libera pedido de pagamento verdadeiro.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
